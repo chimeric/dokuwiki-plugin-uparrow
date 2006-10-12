@@ -22,7 +22,7 @@ class syntax_plugin_uparrow extends DokuWiki_Syntax_Plugin {
         return array(
             'author' => 'Michael Klier',
             'email'  => 'chi@chimeric.de',
-            'date'   => '2005-12-12',
+            'date'   => '2006-10-12',
             'name'   => 'Plugin Uparrow',
             'desc'   => 'Shows an uparrow which links to top of the page.',
             'url'    => 'http://www.chimeric.de/dokuwiki/plugins/uparrow',
