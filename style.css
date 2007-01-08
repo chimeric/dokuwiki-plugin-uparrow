@@ -2,7 +2,7 @@
  * File: style.css for dokuwiki-plugin uparrow 
  * Author:  Michael Klier phpchi@chinux.de
  */
-p.plugin_uparrow {
+div.dokuwiki div.plugin_uparrow {
   margin-top:10px;
   margin-bottom:10px;
   margin-right:10px;
