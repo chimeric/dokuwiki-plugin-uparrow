@@ -1,6 +1,11 @@
 <?php
 /**
  * DokuWiki Syntax Plugin Uparrow
+ *
+ * Shows an arrow image which links to the top of the page.
+ * The image can be defined via the configuration manager.
+ *
+ * Syntax:  ~~UP~~
  * 
  * @license GPL 2 (http://www.gnu.org/licenses/gpl.html)
  * @author  Michael Klier <chi@chimeric.de>
@@ -78,3 +83,4 @@ class syntax_plugin_uparrow extends DokuWiki_Syntax_Plugin {
         }
     }
 }
+// setup vim:ts=4:sw=4:enc=utf-8:
