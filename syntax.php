@@ -31,8 +31,8 @@ class syntax_plugin_uparrow extends DokuWiki_Syntax_Plugin {
         return array(
             'author' => 'Michael Klier',
             'email'  => 'chi@chimeric.de',
-            'date'   => '2007-01-08',
-            'name'   => 'Uparrow',
+            'date'   => @file_get_contents(DOKU_PLUGIN.'uparrow/VERSION'),
+            'name'   => 'Plugin UpArrow (syntax component)',
             'desc'   => 'Shows an arrow image which links to top of the page.',
             'url'    => 'http://www.chimeric.de/projects/dokuwiki/plugin/uparrow',
         );
