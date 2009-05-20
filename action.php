@@ -26,7 +26,7 @@ class action_plugin_uparrow extends DokuWiki_Action_Plugin {
                 'date'   => @file_get_contents(DOKU_PLUGIN.'uparrow/VERSION'),
                 'name'   => 'UpArrow Plugin (action component)',
                 'desc'   => 'Automatically adds an arrow which links to the top of the page after each section.',
-                'url'    => 'http://www.chimeric.de/projects/dokuwiki/plugin/uparrow',
+                'url'    => 'http://dokuwiki.org/plugin:uparrow',
             );
     }
 
