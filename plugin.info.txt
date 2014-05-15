@@ -1,0 +1,7 @@
+ base        uparrow
+ author      Michael Klier
+ email       
+ date        2009-02-21
+ name        Uparrow Plugin for Dokuwiki
+ desc        This simple plugin shows an arrow-image which links to the top of the current page
+ url         https://www.dokuwiki.org/plugin:uparrow
