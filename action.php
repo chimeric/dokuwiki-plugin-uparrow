@@ -31,7 +31,7 @@ class action_plugin_uparrow extends DokuWiki_Action_Plugin {
     }
 
     // register hook
-    function register(&$controller) {
+    function register(Doku_Event_Handler $controller) {
         $controller->register_hook('PARSER_HANDLER_DONE', 'BEFORE', $this, 'insert_uparrow');
     }
 
